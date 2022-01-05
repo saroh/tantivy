@@ -10,6 +10,8 @@
 )]
 #![doc(test(attr(allow(unused_variables), deny(warnings))))]
 #![warn(missing_docs)]
+#![deny(rustdoc::broken_intra_doc_links)]
+#![deny(rustdoc::missing_crate_level_docs)]
 #![allow(clippy::len_without_is_empty)]
 
 //! # `tantivy`
